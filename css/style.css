@@ -1,0 +1,44 @@
+div[id^=s] {
+    width: 100px;
+    height: 100px;
+    border: 1px solid green;
+    margin: 2px;
+    float: left;
+}
+
+.row{
+    clear: both;
+}
+
+#players{
+    clear: both;
+    border: 1px solid red;
+}
+
+#controls{
+    clear:both;
+    border: 1px solid blue;
+}
+
+.xclicked{
+    background-color: lightBlue;
+}
+
+.oclicked{
+    background-color: pink;
+}
+
+.notices{
+    color: red;
+}
+
+.current_play{
+    color: blue;
+    background-color: beige;
+}
+.winner{
+    color: yellow;
+    background-color: red;
+    font-size: 1.5em;
+    border: 2px solid green;
+}
